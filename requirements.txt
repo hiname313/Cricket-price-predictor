@@ -51,7 +51,7 @@ referencing
 requests
 rpds-py
 rsa
-scikit-learn
+scikit-learn==1.6.1
 scipy
 seaborn
 setuptools
