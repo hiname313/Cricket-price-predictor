@@ -1265,9 +1265,9 @@ elif st.session_state.current_page == "🏆 Best XI Team Builder":
     {"player_name": "Vishnu Vinod", "role": "Wicket Keeper", "price": 5000000.0, "runs_scored": 0, "strike_rate": 0.0, "wickets": 0, "economy": 0.0, "is_overseas": 0 },
     {"player_name": "Washington Sundar", "role": "All-Rounder", "price": 87500000.0, "runs_scored": 101, "strike_rate": 146.37, "wickets": 6, "economy": 8.53, "is_overseas": 0 }
 ])
-        st.session_state.players = pd.concat([st.session_state.players, star_players], ignore_index=True)
-        st.success("🌟 Added all star players to your database!")
-        st.rerun()
+           st.session_state.players = pd.concat([st.session_state.players, star_players], ignore_index=True)
+           st.success("🌟 Added all star players to your database!")
+           st.rerun()
         
         if st.button("🔄 Clear Database", use_container_width=True, help="Remove all players"):
             st.session_state.players = pd.DataFrame(columns=[
