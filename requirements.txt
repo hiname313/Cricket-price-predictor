@@ -21,17 +21,17 @@ httpx
 idna
 importlib-resources
 jinja2
-joblib
+joblib==1.5.3
 jsonschema
 jsonschema-specifications
 kiwisolver
-lightgbm
+lightgbm==4.6.0
 markupsafe
 matplotlib
 narwhals
-numpy
+numpy==2.4.1
 packaging
-pandas
+pandas==2.3.3
 pillow
 pip
 plotly
@@ -52,7 +52,7 @@ requests
 rpds-py
 rsa
 scikit-learn==1.6.1
-scipy
+scipy==1.16.3
 seaborn
 setuptools
 six
@@ -70,5 +70,5 @@ urllib3
 uv
 websockets
 wheel
-xgboost
+xgboost==3.1.3
 zipp
