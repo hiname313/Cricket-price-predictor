@@ -58,7 +58,7 @@ setuptools
 six
 smmap
 sniffio
-streamlit
+streamlit==1.41.1
 tenacity
 threadpoolctl
 toml
